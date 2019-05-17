@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin"
+    card_view:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_margin="@dimen/margin">
+
+        <ImageView
+            android:id="@+id/img_view"
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:id="@+id/txt_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginRight="1dp"
+            android:layout_toRightOf="@id/img_view"
+            android:text="@string/Nama"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_nama"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginRight="1dp"
+            android:layout_toRightOf="@id/img_view"
+            android:text="@string/Detail" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/img_view">
+
+            <Button
+                android:id="@+id/btn_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin"
+                android:layout_weight="1"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:background="@color/colorPrimary"
+                android:text="@string/btn_detail"
+                android:textColor="@color/cardview_light_background" />
+
+            <Button
+                android:id="@+id/btn_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="@dimen/margin"
+                android:layout_weight="1"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:background="@color/colorPrimary"
+                android:text="@string/like"
+                android:textColor="@color/cardview_light_background" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

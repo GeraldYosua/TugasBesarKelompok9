@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MotorList</string>
+    <string name="Nama">nama</string>
+    <string name="Detail">detail</string>
+    <string name="btn_detail">Detail</string>
+    <string name="like">Like</string>
+    <string name="daftar_motor_110cc">Daftar motor 110cc</string>
+    <string name="daftar_motor_125cc">Daftar motor 125cc</string>
+    <string name="daftar_motor_150cc">Daftar motor 150cc</string>
+</resources>

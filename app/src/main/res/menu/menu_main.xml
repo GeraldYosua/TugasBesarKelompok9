@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_110cc"
+        android:title="@string/daftar_motor_110cc"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_125cc"
+        android:title="@string/daftar_motor_125cc"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_150cc"
+        android:title="@string/daftar_motor_150cc"
+        app:showAsAction="never"/>
+</menu>
